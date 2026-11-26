@@ -1,11 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="20" height="20" role="img" aria-label="Safe Redirect">
-  <defs>
-    <linearGradient id="redirectGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3B82F6" />
-      <stop offset="100%" stop-color="#2563EB" />
-    </linearGradient>
-  </defs>
-  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#redirectGrad)" />
-  <path d="M19 42V32C19 25.9249 23.9249 21 30 21H43" fill="none" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
-  <polyline points="36,14 44,21 36,28" fill="none" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20" role="img" aria-label="Safe Redirect">
+  <path d="M10 1.5 3 4.2v5.1c0 4.3 3 7.7 7 9.2 4-1.5 7-4.9 7-9.2V4.2L10 1.5Z" fill="none" stroke="#a7aaad" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M7 13V10.6c0-1.6 1.2-2.8 2.8-2.8H13" fill="none" stroke="#a7aaad" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M11.2 5.9 13.2 7.8 11.2 9.7" fill="none" stroke="#a7aaad" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

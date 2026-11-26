@@ -44,6 +44,11 @@ class Menu_Register {
 		<?php
 	}
 
+	/**
+	 * Prints the redirects admin page.
+	 *
+	 * @return void
+	 */
 	public function render_redirect_page() {
 		?>
 		<h1>This is Redirect page</h1>

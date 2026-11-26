@@ -8,11 +8,15 @@
 namespace EngineWP\SafeRedirect\Database;
 
 /**
- * Create custom table to save redirects.
- *
- * @return void
+ * Custom table that stores redirects (old URL, new URL, 301 or 302).
  */
 class RedirectTable {
+
+	/**
+	 * Creates or updates the redirects table with dbDelta.
+	 *
+	 * @return void
+	 */
 	public function create_table() {
 		global $wpdb;
 

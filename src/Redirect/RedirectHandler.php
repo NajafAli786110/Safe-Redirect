@@ -1,16 +1,26 @@
 <?php
 /**
- * Handling redirection here!
+ * Sends visitors from an old URL to its new URL.
  *
- * @package EngineWP/SafeRedirect
+ * @package EngineWP\SafeRedirect
  */
 
 namespace EngineWP\SafeRedirect\Redirect;
 
 use EngineWP\SafeRedirect\Database\RedirectTable;
 
+/**
+ * Looks up the current URL in the redirects table and redirects when a match is found.
+ */
 class RedirectHandler {
 
+	/**
+	 * Redirects the current request if an admin has saved a redirect for its path.
+	 *
+	 * Runs on template_redirect before the 404 logger, so a redirected URL is never logged.
+	 *
+	 * @return void
+	 */
 	public function page_redirect() {
 		$url = isset( $_SERVER['REQUEST_URI'] ) ? wp_parse_url( wp_unslash( esc_url_raw( $_SERVER['REQUEST_URI'] ) ), PHP_URL_PATH ) : null;
 		if ( null === $url ) {

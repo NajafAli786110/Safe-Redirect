@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Plugin Name: Safe Redirect - 404 to 301 Manager
  * Description: This plugin allows you to manage 404 to 301 redirects safely and efficiently.
